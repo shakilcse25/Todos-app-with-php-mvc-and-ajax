@@ -1,0 +1,16 @@
+{
+    "name": "asus/todos",
+    "description": "todos app",
+    "authors": [
+        {
+            "name": "Shakil Ahmed",
+            "email": "shakilcse25@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload" : {
+        "psr-4" : {"Todos\\": "src/"}
+    }
+}
