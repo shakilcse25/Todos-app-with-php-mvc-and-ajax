@@ -103,7 +103,7 @@ $(document).ready(function(){
           $(form).attr({
             'id': 'edit' + todo['id']
           });
-          $n = '<div class="list-group-item list-group-item-action myitem"><input type="checkbox" id="todo" class="mytodo checkno' + todo['id'] + '" onchange="checkFun(' + todo['id'] + ');" name="todo" value="todo"> <input type="text" class="form-control edit_inp" ';
+          $n = '<div class="list-group-item list-group-item-action myitem"><input type="checkbox" id="todo" class="mytodo checkno' + todo['id'] + '" onchange="checkFun(' + todo['id'] + ');" name="todo" value="todo"> <input type="text" class="form-control edit_inp" style="padding-right: 76px;" ';
 
           $n = $n + 'name="task" onkeydown="editFun(' + todo['id'] + ');" value="' + todo['task'] + '" readonly> <a style="cursor:pointer;" onclick="delFun(' + todo['id'] + ');"><i class="fas fa-times"></i></a></div >';
           $(form).append($n);
